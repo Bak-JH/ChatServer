@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"experimentalDecorators": true,
+		"esModuleInterop": true,
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"jsx": "react",
+		"lib": ["es2017", "dom"],
+		"downlevelIteration": true,
+		"strict": true,
+		"types": ["node", "jquery"],
+		"allowSyntheticDefaultImports": true,
+        "allowJs": true
+	}
+}

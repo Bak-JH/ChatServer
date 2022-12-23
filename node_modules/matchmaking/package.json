@@ -1,0 +1,27 @@
+{
+  "name": "matchmaking",
+  "version": "0.4.32",
+  "description": "Create matches or lobbies for two or more players/objects",
+  "main": "javascript/index.js",
+  "types": "javascript/index.d.ts",
+  "scripts": {
+    "prepublishOnly": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "tsc; node javascript/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luifr/matchmaking.git"
+  },
+  "author": "Lui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Luifr/matchmaker/issues"
+  },
+  "homepage": "https://github.com/Luifr/matchmaker#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.6.4"
+  }
+}
